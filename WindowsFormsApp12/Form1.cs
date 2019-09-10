@@ -25,7 +25,7 @@ namespace WindowsFormsApp12 {
         string fileName = "";
 
         private void uploadBtn_Click(object sender, EventArgs e) {
-            // This is a comment
+            //CCS 2102 - Example PULL
             openFileDialog1.Title = "Insert an Image";
             openFileDialog1.InitialDirectory = location;
             openFileDialog1.FileName = "";

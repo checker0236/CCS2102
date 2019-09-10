@@ -83,6 +83,7 @@
             this.uploadBtn.Text = "Upload";
             this.uploadBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.uploadBtn.UseVisualStyleBackColor = true;
+            this.uploadBtn.Click += new System.EventHandler(this.uploadBtn_Click);
             // 
             // groupBox3
             // 
